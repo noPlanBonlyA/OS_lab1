@@ -4,9 +4,13 @@
 
 namespace monolith::app {
 
+namespace {
+
 void Main() {
   std::cout << HelloWorld() << '\n';
 }
+
+}  // namespace
 
 }  // namespace monolith::app
 

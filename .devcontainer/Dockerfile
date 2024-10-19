@@ -1,4 +1,4 @@
-FROM xianpengshen/clang-tools:18
+FROM ubuntu:oracular
 
-COPY devcontainer.sh /
-RUN sh /devcontainer.sh
+COPY devcontainer.bash /
+RUN bash /devcontainer.bash
