@@ -29,6 +29,5 @@ jobs:
           cmake ..
           cmake --build .
 
-          - name: Run tests
-          run: |
-            echo "No tests implemented yet."
+      - name: Run tests
+        run: echo "No tests implemented yet."
