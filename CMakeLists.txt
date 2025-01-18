@@ -10,6 +10,10 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 include(cmake/CompileOptions.cmake)
 
 add_subdirectory(source)
+find_package(GTest REQUIRED)
+
+add_subdirectory(test)
+enable_testing()
 
 if(DMITRIEVMYSHELL_DEVELOPER)
     find_package(GTest REQUIRED)
