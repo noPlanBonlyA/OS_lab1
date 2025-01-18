@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 
+
 void emaSearchStr(const std::string& filename, const std::string& substring) {
     std::ifstream file(filename);
     if (!file.is_open()) {

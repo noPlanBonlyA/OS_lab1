@@ -40,6 +40,7 @@ void Shell::run() {
     }
 }
 
+
 void executeCommand(const std::string& command) {
     struct timespec start, end;
     clock_gettime(CLOCK_REALTIME, &start);
