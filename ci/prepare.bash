@@ -20,4 +20,4 @@ message "Got MODE: '$MODE'"
 
 message "Preparing a developement environment..."
 mkdir -p build
-(cd build && cmake -DMONOLITH_DEVELOPER=ON -DCMAKE_BUILD_TYPE=$MODE ..)
+(cd build && cmake -DDMITRIEVMYSHELL_DEVELOPER=ON -DCMAKE_BUILD_TYPE=$MODE ..)

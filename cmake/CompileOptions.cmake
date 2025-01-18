@@ -4,7 +4,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_compile_options(-Wall -Wextra -Wpedantic)
 
-if(MONOLITH_DEVELOPER)
+if(DMITRIEVMYSHELL_DEVELOPER)
     add_compile_options(-Werror)
     set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 endif()

@@ -2,10 +2,10 @@
 
 #include <string>
 
-namespace monolith {
+namespace dmitrievmyshell {
 
 std::string HelloWorld() {
   return "Hello, World!";
 }
 
-}  // namespace monolith
+}  // namespace dmitrievmyshell

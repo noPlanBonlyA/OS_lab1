@@ -2,7 +2,7 @@
 
 #include <string>
 
-namespace monolith {
+namespace dmitrievmyshell {
 
 std::string HelloWorld();
 

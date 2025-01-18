@@ -1,11 +1,11 @@
 #include <gtest/gtest.h>
 
-#include "monolith/HelloWorld.hpp"
+#include "dmitrievmyshell/HelloWorld.hpp"
 
-namespace monolith {
+namespace dmitrievmyshell {
 
 TEST(HelloWorld, ExactMatch) {
   ASSERT_EQ(HelloWorld(), "Hello, World!");
 }
 
-}  // namespace monolith
+}  // namespace dmitrievmyshell
