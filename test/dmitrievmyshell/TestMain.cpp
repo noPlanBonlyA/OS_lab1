@@ -1,6 +1,6 @@
-#include <iostream>
+#include <gtest/gtest.h>
 
-int main() {
-    std::cout << "Smoke test passed!" << std::endl;
-    return 0;
+int main(int argc, char **argv) {
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }
