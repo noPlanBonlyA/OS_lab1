@@ -2,6 +2,7 @@
 #include <fstream>
 #include "../../source/dmitrievmyshell/EmaSearch.hpp"
 
+
 TEST(EmaSearchTest, FindSubstring) {
     // Создаём временный файл
     std::ofstream file("testfile.txt");
